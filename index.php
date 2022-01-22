@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capital Developers</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top" class="theme-particles">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+
+        <!-- # header
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__content">
+
+                <div class="s-header__logo">
+                    <a class="logo" href="https://capital-studio.github.io" target="_blank">
+                        <img src="images/logo.png" alt="Homepage">
+                    </a>
+                </div>
+    
+
+
+            </div> <!-- end s-header__content -->
+        </header> <!-- end s-header -->
+
+
+        <!-- # intro 
+        ================================================== -->
+        <section id="intro" class="s-intro">
+
+            <div id="particles-js" class="s-intro__particles"></div>
+
+            <div class="row s-intro__content">
+                <div class="column lg-12">
+                    
+                    <div class="counter">
+                        <div class="counter__time">
+                            <span class="ss-days">365</span>
+                            <span>days</span>
+                        </div>
+                        <div class="counter__time">
+                            <span class="ss-hours">01</span>
+                            <span>hours</span>
+                        </div>
+                        <div class="counter__time minutes">
+                            <span class="ss-minutes">01</span>
+                            <span>mins</span>
+                        </div>
+                        <div class="counter__time">
+                            <span class="ss-seconds">55</span>
+                            <span>secs</span>
+                        </div>
+                    </div>  <!-- end counter -->
+
+                    <div class="s-intro__content-bottom">
+                        <h1 class="s-intro__content-title">New Game is comming Soon</h1>
+                        <p>
+                            A new horror game is in development.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="s-intro__scroll">
+                    <p class="scroll-text">Scroll For More</p>
+                    <a href="#info" class="smoothscroll">
+                        <div class="mouse"></div>
+                    </a>
+                    <div class="end-top"></div>
+                </div> <!-- end s-intro__scroll -->
+
+            </div> <!-- intro__content -->
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- # info
+        ================================================== -->
+        <section id="info" class="s-info">
+
+            <div class="s-info__bg"></div>
+
+            <div class="row">
+                <div class="column lg-12">
+
+                    <nav class="tab-nav">
+                        <ul class="tab-nav__list"> 
+                            <li class="active" data-id="tab-about">
+                                <a href="#tab-about">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab-services">
+                                    Help Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab-contact">
+                                    Subscribe
+                                </a>
+                            </li>
+                        </ul>
+                    </nav> <!-- end tab-nav -->
+        
+                    <div class="tab-content">
+        
+                        <!-- 01 - tab about -->
+                        <div id="tab-about" class='tab-content__item'>
+        
+                            <div class="row tab-content__item-header">
+                                <div class="column">
+                                    <h2>You Are Not Alone!</h2>
+                                </div>
+                            </div>
+        
+                            <div class="row">
+                                <div class="column">
+                                    <p class="lead">
+                                        You are not alone is a horror game for PC. You can fight the beast alone or scare your teammates in multiplayer mode. In more than 3 different maps you can easily get lost.  The game will be released on Halloween 2022.
+                                    </p>
+        
+                                    <p>
+                                    </p>
+        
+                                    <div class="row">
+                                        <div class="column lg-6 tab-12">
+                                            <h4>More About Us.</h4>
+                                            <p>
+                                                We are a small team of Capital Studio programming games with Unity, Unreal Engine and MBlock. We have a main and secondary developer, two designers, a soundmaster and a social media marketer. You can also join us easily as we still need developers.
+                                            </p>
+                                        </div>
+                                        <div class="column lg-6 tab-12">
+                                            <h4>Capital Studio?</h4>
+                                            <p>
+                                                Capital Studio is a small studio that calls itself a developer and marketing studio. 
+                                            </p>
+                                            <a href="https://capital-studio.github.io" class="btn btn--primary u-fullwidth">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div> <!-- end 01 - tab about -->
+        
+                        <!-- 02 - tab services -->
+                        <div id="tab-services" class='tab-content__item'>
+        
+                            <div class="row tab-content__item-header">
+                                <div class="column">
+                                    <h2>We need your help!</h2>
+                                </div>
+                            </div>
+        
+                            <div class="row">
+                                <div class="column">
+                                    <p class="lead">
+                                        We are a team of three developers who urgently need support. We are three students from Germany who do this project voluntarily, and therefore do not have so much time to develop. Please contact us if you feel like joining us.
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <div class="row services-list block-lg-one-half block-md-one-half block-tab-whole">
+        
+                    
+                                <div class="column services-list__item">
+                                    <div class="services-list__item-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.277,8C18.624,8.596,19.262,9,20,9c1.104,0,2-0.896,2-2s-0.896-2-2-2c-0.738,0-1.376,0.404-1.723,1H16V4 c0-0.553-0.447-1-1-1H9C8.448,3,8,3.447,8,4v2H5.723C5.376,5.404,4.738,5,4,5C2.896,5,2,5.896,2,7s0.896,2,2,2 c0.738,0,1.376-0.404,1.723-1H8v0.369C5.133,9.84,4.318,12.534,4.091,14H3c-0.552,0-1,0.447-1,1v4c0,0.553,0.448,1,1,1h4 c0.552,0,1-0.447,1-1v-4c0-0.553-0.448-1-1-1H6.123c0.197-0.959,0.718-2.406,2.085-3.418C8.391,10.829,8.669,11,9,11h6 c0.331,0,0.61-0.171,0.792-0.419c1.373,1.013,1.895,2.458,2.089,3.419H17c-0.553,0-1,0.447-1,1v4c0,0.553,0.447,1,1,1h4 c0.553,0,1-0.447,1-1v-4c0-0.553-0.447-1-1-1h-1.092C19.681,12.534,18.866,9.839,16,8.368V8H18.277z M6,18H4v-2h2V18z M20,18h-2v-2 h2V18z M14,9h-4V8V6V5h4V9z"></path></svg>
+                                    </div>
+                                    <div class="services-list__item-content">
+                                        <h4 class="item-title">Designers</h4>
+                                        <p>
+                                            If you are good at creating simple 3d objects in Blender and Unity, you are perfect for this job. Here you can design simple things like furniture or other things.
+                                        </p>
+                                    </div>
+                                </div>
+                    
+                                <div class="column services-list__item">
+                                    <div class="services-list__item-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19,3H5C3.897,3,3,3.897,3,5v14c0,1.103,0.897,2,2,2h14c1.103,0,2-0.897,2-2V5C21,3.897,20.103,3,19,3z M19,5l0.001,4H15h-2 H5V5H19z M5,11h8v8H5V11z M15,19v-8h4.001l0.001,8H15z"></path></svg>
+                                    </div>
+                                    <div class="services-list__item-content">
+                                        <h4 class="item-title">Web Design</h4>
+                                        <p>
+                                            We need helpers to keep our website up to date. This includes programming in HTML, CSS, Javascript and PHP. It would also be an advantage if you know a bit about Github.
+                                        </p>
+                                    </div>
+                                </div>
+                    
+                                <div class="column services-list__item">
+                                    <div class="services-list__item-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C2.897,3,2,3.897,2,5v11c0,1.103,0.897,2,2,2h4l-1.8,2.4l1.6,1.2l2.7-3.6h3l2.7,3.6l1.6-1.2L16,18h4 c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M4,16V5h16l0.001,11H4z"></path><path d="M6 12H10V14H6z"></path></svg>
+                                    </div>
+                                    <div class="services-list__item-content">
+                                        <h4 class="item-title">Leadership</h4>
+                                        <p>
+                                            We urgently need support in the management of the team. So if you can manage well, just get in touch with us. 
+                                        </p>
+                                    </div>
+                                </div>
+                    
+
+                    
+                                <div class="column services-list__item">
+                                    <div class="services-list__item-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M5,22h14c1.103,0,2-0.897,2-2V9c0-0.553-0.447-1-1-1h-3V7c0-2.757-2.243-5-5-5S7,4.243,7,7v1H4C3.447,8,3,8.447,3,9v11 C3,21.103,3.897,22,5,22z M9,7c0-1.654,1.346-3,3-3s3,1.346,3,3v1H9V7z M5,10h2v2h2v-2h6v2h2v-2h2l0.002,10H5V10z"></path></svg>
+                                    </div>
+                                    <div class="services-list__item-content">
+                                        <h4 class="item-title">E-Commerce</h4>
+                                        <p>
+                                            We want to develop our own game store by the end of 2022. If you are good with online shopping you are perfect. You can be a simple Java developer or a manager.
+                                        </p>
+                                    </div>
+                                </div>
+                    
+                            </div> <!-- end services-list -->
+                            
+                        </div> <!-- end 02 - tab services -->
+        
+                        <!-- 03 - tab contact -->
+                        <div id="tab-contact" class="tab-content__item">
+        
+                            <div class="row tab-content__item-header">
+                                <div class="column">
+                                    <h2>Subscribe To Our Newsletter.</h2>
+                                </div>
+                            </div>
+        
+                            <div class="row">
+                                <div class="column">
+                                    
+                                    <p class="lead">
+                                        If you want to be informed when the game comes online, you can subscribe to the newsletter.
+                                    </p>
+
+                                    <p>
+                                        We do not collect personal data to evaluate them. Your email address will be stored in a file that will be deleted after the game is published. We will not send you any promotional emails.
+                                    </p>
+                                    <form id="mc-form" class="mc-form" action="newsletter.php">
+                                        <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Email Address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+                                        <input type="submit" name="subscribe" value="Subscribe" class="btn--small btn--primary u-fullwidth">
+                                        <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
+                                        <div class="mc-status"></div>
+                                    </form>
+        
+                                </div>
+                            </div>
+                            
+                        </div> <!-- end 03 - tab contact -->
+        
+                    </div> <!-- end tab content -->
+
+                </div> <!-- end column -->
+            </div> <!-- end row -->
+
+        </section> <!-- end s-info -->
+
+
+        <!-- # footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row s-footer__top">
+
+                <div class="column lg-6 stack-on-700 s-footer__block s-footer__info">
+
+                    <h4 class="h6">Khronos</h4>
+                    
+                    <p class="desc">
+                    Beatae voluptatum reprehenderit et debitis consequatur. Quidem est velit hic culpa. 
+                    Veritatis id tempora voluptas et provident maxime maiores dignissimos non. Incidunt 
+                    asperiores non. Consequatur nostrum itaque.
+                    </p>
+
+
+                </div> <!-- end s-footer__info -->
+
+                <div class="column lg-6 stack-on-700 s-footer__block s-footer__contact">
+
+                    <h4 class="h6">Contact Info</h4>
+
+                    <div class="row">
+                        <div class="column lg-6 stack-on-1000">
+                            <p>
+                            <strong>Email</strong> <br>
+                            <a href="mailto:business.capitalstudio@gmail.com">business.capitalstudio@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div> <!-- end s-footer__contact -->
+
+            </div> <!-- end s-footer__top -->
+
+            <div class="row s-footer__bottom">
+                <div class="column lg-12">
+                    <div class="ss-copyright">
+                        <span>© Copyright Capital Developers <span></span>2022</span> 
+                    </div>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M6 4H18V6H6zM11 14L11 20 13 20 13 14 18 14 12 8 6 14z"></path></svg>
+                     </a>
+                </div>
+            </div> <!--end s-footer__bottom -->
+
+        </footer> <!--end s-footer -->
+
+    </div> <!-- end pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/particle-settings.js"></script>
+
+</body>
+</html>
